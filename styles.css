@@ -108,6 +108,7 @@ input[type="submit"]:hover {
   background-color: hsl(213, 19%, 23%);
   padding: 10px;
   border-radius: 100%;
+  overflow: visible;
 }
 
 #ratings {
