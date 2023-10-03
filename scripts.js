@@ -32,5 +32,3 @@ let selectedRating;
     });
   });
 })();
-
-console.log(rating);
