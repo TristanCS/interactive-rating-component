@@ -19,7 +19,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Interactive Rating Component](https://your-solution-url.com)
+- Solution URL: [Interactive Rating Component](https://www.frontendmentor.io/solutions/interactive-rating-component-B_ohzTauF2)
 - Live Site URL: [Add live site URL here](https://tristancs.github.io/interactive-rating-component/)
 
 ## My process
