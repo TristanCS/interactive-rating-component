@@ -2,7 +2,9 @@ const howDidWeDo = document.getElementById("how-did-we-do");
 const thankYou = document.getElementById("thank-you");
 const submitButtons = document.querySelectorAll("input[type=submit]");
 const ratingButtons = document.querySelectorAll("button");
+const rating = document.getElementById("rating");
 let isSelected = false;
+let selectedRating;
 
 (function selectRating() {
   ratingButtons.forEach((ratingButton) => {
@@ -12,6 +14,8 @@ let isSelected = false;
       });
       ratingButton.classList.add("selected");
       isSelected = true;
+      selectedRating = ratingButton.textContent;
+      rating.textContent = selectedRating;
     });
   });
 })();
@@ -28,3 +32,5 @@ let isSelected = false;
     });
   });
 })();
+
+console.log(rating);
